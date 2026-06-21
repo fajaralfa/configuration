@@ -9,3 +9,7 @@ set backspace=indent,eol,start
 set autoindent
 set smartindent
 packadd editorconfig
+autocmd FileType make setlocal noexpandtab
+autocmd FileType make setlocal tabstop=8
+autocmd FileType make setlocal shiftwidth=8
+autocmd FileType make setlocal softtabstop=8
