@@ -1,2 +1,2 @@
 #!/bin/bash
-cp .vimrc .tmux.conf ~
+cp -r .config/ .vimrc .tmux.conf ~
